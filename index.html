@@ -5,34 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Дома под заказ в Санкт-Петербурге</title>
+    
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/fonts.css">
+    <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
   </head>
 
   <body>
-    <header>
-      <img
-        src="./assets/img/main-logotype.svg"
-        alt="логотип"
-        width="120"
-        height="51"
-      />
-      <img
-        src="./assets/img/telegramLogo.png"
-        alt="telegramlogo"
-        width="55"
-        height="55"
-      />
-      <a href="tel:89537484772">8 (953) 748 47 72</a>
-      <button>Заказать звонок</button>
+    <header class="header">
+      <div class="container header__container">
+        <img
+          src="./assets/img/main-logotype.svg"
+          alt="логотип"
+          width="120"
+          height="51"
+          class="header__logo"
+        />
+
+        <a href="#" class="header__social">
+          <img
+            src="./assets/img/tg-icon.svg"
+            alt="telegramlogo"
+            width="55"
+            height="55"
+          />
+        </a>
+
+        <button class="btn header__btn">Заказать звонок</button>
+        <a href="tel:89537484772" class="header__phone">8 (953) 748 47 72</a>
+        
+      </div>
     </header>
 
     <main>
-      <section>
-        <h1>Проектирование домов в Санкт-Петербургке</h1>
-        <h2>Живите на природе с комфортом</h2>
-        <p>
-          Создаем лаконичные и удобные модульные дома, которые стоят дешевле
-          городской квартиры
-        </p>
+      <section class="intro">
+        <div class="container">
+          <h1 class="visually-hidden">Проектирование домов в Санкт-Петербургке</h1>
+          <h2 class="intro__title">Живите на природе с комфортом</h2>
+
+          <p class="intro__text">
+            Создаем лаконичные и удобные модульные дома, которые стоят дешевле
+            городской квартиры
+          </p>
+        </div>
+
         <img
           src="./assets/img/mask_group.jpg"
           width="1919"
@@ -51,32 +68,27 @@
         </p>
         <ul>
           <li>
-            <img src="./assets/img/1.jpg" alt="1" width="28" height="71" />
+            <img src="./assets/img/num1.png" alt="1" width="28" height="71" />
             <p>Высокоточная сборка</p>
           </li>
           <li>
-            <img src="./assets/img/2.jpg" alt="2" width="43" height="71" />
+            <img src="./assets/img/num2.png" alt="2" width="43" height="71" />
             <p>Прочные и долговечные материал</p>
           </li>
           <li>
-            <img src="./assets/img/3.jpg" alt="3" width="43" height="71" />
+            <img src="./assets/img/num3.png" alt="3" width="43" height="71" />
             <p>Всесезонность</p>
           </li>
           <li>
-            <img src="./assets/img/4.jpg" alt="4" width="80.32" height="83" />
+            <img src="./assets/img/num4.png" alt="4" width="43" height="71" />
             <p>Энергоэффективность</p>
           </li>
           <li>
-            <img src="./assets/img/5.jpg" alt="5" width="80.32" height="83" />
+            <img src="./assets/img/num5.png" alt="5" width="43" height="71" />
             <p>Лаконичный и эргономичный дизайн интерьера</p>
           </li>
           <li>
-            <img
-              src="./assets/img/Union.jpg"
-              alt="6"
-              width="80.32"
-              height="83"
-            />
+            <img src="./assets/img/num6.png" alt="6" width="43" height="71" />
             <p>Короткий цикл производства</p>
           </li>
         </ul>
@@ -213,7 +225,7 @@
             </li>
           </ul>
 
-          <button>Заказать звонок</button>
+          <button class="btn">Заказать звонок</button>
 
           <h3>Используемые материалы или комплектация дома</h3>
 
