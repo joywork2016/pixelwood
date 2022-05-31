@@ -33,6 +33,14 @@ body {
   line-height: 1.2;
 }
 
+.container {
+  width: 100%;
+  max-width: 1800px;
+  padding: 0 40px;
+  margin: 0 auto;
+  outline: 1px solid red;
+}
+
 footer {
   margin-top: auto;
 }
@@ -89,6 +97,7 @@ a {
 
   min-height: 55px;
   padding: 18px 30px;
+  border: 0;
 
   color: #ffffff;
 }
@@ -98,10 +107,7 @@ a {
   color: #101318;
 }
 
-.paragraph {
+.main-text {
   font-size: 20px;
   font-weight: 300;
-  line-height: 23px;
-  letter-spacing: 0em;
-  text-align: left;
 }

@@ -32,13 +32,6 @@
 /*vw: viewport width */
 /*vh: vieport height */
 
-.container {
-  width: 100%;
-  max-width: 1800px;
-  padding: 0 40px;
-  margin: 0 auto;
-  outline: 1px solid red;
-}
 
 .header {
   padding: 30px 0;
@@ -62,9 +55,7 @@
 
 .header__btn {
   min-width: 190px;
-
   margin-right: 20px;
-
   background-color: #3e3e3e;
 }
 
@@ -75,8 +66,11 @@
   color: #3e3e3e;
 }
 
+/* intro section start */
+
 .intro {
   padding-top: 80px;
+  margin-bottom: 100px;
 }
 
 .intro__title {
@@ -93,19 +87,140 @@
   color: #101318;
 }
 
-.main_picture {
+.intro__picture {
   width: 100%;
   height: 100%;
   max-height: 540px;
   min-height: 200px;
 }
 
-.indent {
-  margin-bottom: 20px;
-  padding: 15px;
+/* intro section end */
+
+/* features section start */
+
+.features {
+  padding-top: 20px;
+  margin-bottom: 100px;
 }
 
-.advantages {
-  display: flex;
-  margin-bottom: 20px;
+.features__title {
+  margin-bottom: 10px;
 }
+
+.features__text {
+  max-width: 1230px;
+  margin-bottom: 10px;
+}
+
+.features__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.features__list-item {
+  display: flex;
+  align-items: center;
+  width: 25%;
+  min-width: 300px;
+  margin: 20px 0;
+  padding-right: 20px;
+  outline: 1px solid red;
+}
+
+.features__list-item img {
+  margin-right: 10px;
+}
+
+/* features section end */
+
+/* chars start */
+
+.chars__container {
+  display: flex;
+}
+
+.chars__img {
+  width: 65%;
+  height: 100%;
+  max-height: 730px;
+  max-width: 1100px;
+  margin-right: auto;
+  object-fit: contain;
+}
+
+.chars__content {
+  width: 35%;
+  max-width: 580px;
+  padding-left: 20px;
+  outline: 1px solid red;
+}
+
+.chars__title {
+  margin-bottom: 10px;
+}
+
+.chars__list {
+  margin-bottom: 15px;
+}
+
+.chars__list li {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(62, 62, 62, .5); ;
+}
+
+.chars__list li span {
+  font-size: 14px;
+  font-weight: 400;
+  width: 50%;
+  color: #101318;
+}
+
+.chars__list li span:first-child {
+  padding-right: 20px;
+}
+
+.chars__list li span:last-child {
+  text-align: right;
+}
+
+/*accordeon*/
+
+.accordeon {
+
+}
+
+.accordeon__header {
+  position: relative;
+  padding: 10px 0;
+  outline: 1px solid red;
+  padding-right: 30px;
+  cursor: pointer;
+}
+
+.accordeon__header span {
+  font-weight: 400;
+  font-size: 24px;
+
+  color: #101318;
+}
+
+.accordeon__header::after {
+  position: absolute;
+  top: 17px;
+  right: 0;
+
+  width: 16px;
+  height: 16px;
+
+  content: '';
+
+  background-image: url("../img/icon-plus.svg");
+  background-size: 16px;
+  background-repeat: no-repeat;
+}
+
+
+
+/* chars end*/
