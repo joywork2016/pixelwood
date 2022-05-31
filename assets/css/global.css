@@ -19,70 +19,89 @@ body {
 }
 
 :root {
-    font-size: 10px;
+  font-size: 10px;
 }
 
 body {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    font-family: 'Roboto-Condensed';
-    font-weight: 400;
-    overflow-x: hidden;
-    background-color: #ffffff;
-    line-height: 1.2;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto-Condensed";
+  font-weight: 400;
+  overflow-x: hidden;
+  background-color: #ffffff;
+  line-height: 1.2;
 }
 
 footer {
-    margin-top: auto;
+  margin-top: auto;
 }
 
-button {
-    padding: 0;
-    border: 0;
-    background-color: transparent;
-    cursor: pointer;
+.button {
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
 }
 
-p,h1,h2,h3,h4,h5,h6 {
-    margin: 0;
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
 }
 
 ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    webkit-clip-path: inset(100%);
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  webkit-clip-path: inset(100%);
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    font-family: 'Open Sans';
-    font-weight: 600;
-    font-size: 14px;
+  font-family: "OpenSans";
+  font-weight: 600;
+  font-size: 14px;
 
-    min-height: 55px;
-    padding: 18px 30px;
+  min-height: 55px;
+  padding: 18px 30px;
 
-    color: #ffffff;
+  color: #ffffff;
+}
+
+.main-title {
+  font-size: 42px;
+  color: #101318;
+}
+
+.paragraph {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
 }
